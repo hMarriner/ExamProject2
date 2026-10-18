@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0, 0%, 100%; /* background */
+  --primary: 174, 55%, 42%; /* primary */
+  --primary-light: 174, 55%, 52%; /* primary-light */
+  --primary-dark: 174, 55%, 32%; /* primary-dark */
+  --secondary: 0, 0%, 90%; /* secondary */
+  --secondary-light: 0, 0%, 96%; /* secondary-light */
+  --secondary-dark: 0, 0%, 70%; /* secondary-dark */
+  --accent-1: 174, 30%, 90%; /* accent-1 */
+  --accent-2: 174, 30%, 35%; /* accent-2 */
+  --foreground: 0, 0%, 0%; /* foreground */
+}
+
+body {
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: Arial, Helvetica, sans-serif;
+}
